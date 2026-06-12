@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+}
+
+nav > p {
+	padding: 10px;
+	background-color: #EAD7D7;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+
+nav > p:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+nav > p:first-of-type {
+	margin-bottom: 2px;
+}
+
+nav > p:last-of-type {
+	cursor: pointer;
+}
+
+nav > p > a, nav a:visited {
+	text-decoration: none;
+	color: #6F402D;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	font-size: 1.8vh;
+	line-height: 2.7vh;
+	background-color: #F5CBBA;
+    font-family: Bona Nova SC, serif;
+}
+
+p, section {
+    font-family: Asul, sans-serif;
+}
+
+figure {
+	text-align: center;
+}
+
+figure > img {
+	margin: 0 0;
+	height: 30vh;
+	border-radius: 20vh;
+}
+
+section {
+	text-align: justify;
+}
+
+section > p {
+	height: 12.5vh;
+	line-height: 12.5vh;
+	border-bottom: 1px solid #EAD7D7;
+}
+
+section > p:not(:last-of-type) {
+	border-bottom: 3px solid #EAD7D7;
+}
