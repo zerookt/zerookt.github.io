@@ -107,3 +107,27 @@ section > p {
 section > p:not(:last-of-type) {
 	border-bottom: 3px solid #EAD7D7;
 }
+
+@media only screen and (max-width: 1024px) {
+    article {
+        width: 100%;
+        margin-top: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        margin-top: 20;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+}

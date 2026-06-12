@@ -7,41 +7,101 @@
         <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
         <script src="script.js"></script>
         <style>
-            nav > p {
+            @import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&display=swap');
+            body {
+                font-family: Chiron Sung HK, serif;
+            }
+
+            p {
                 font-family: Chiron Sung HK, sans-serif;
             }
 
-            p, h1, sub {
-                font-family: Chiron Sung HK, sans-serif;
+            article {
+                width: 60vw;
+                margin: 0 20vw;
+                text-align: center;
             }
 
-            nav {
+            h1 {
+                height: 10vh;
+                font-size: 4.8vh;
+                Line-height: 10vh;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            section {
+                margin: 2vh 0;
+                padding: 0 2vw;
+            }
+
+            body > nav:nth-of-type(1) {
+                display: inline-block;
                 position: fixed;
-                top: 0;
-                background-color: #2C526A;
+                background-color: #C28A6E;
+                text-align: center;
+            }
+
+            body > nav:nth-of-type(2) {
+                display: inline-block;
+                position: fixed;
+                width: 10vw;
+                right:1.5vw;
+                top: 0.5vh;
+                font-size: 15px;
+            }
+
+            body > nav:nth-of-type(3) {
+                padding: 5px;
+                background-color: #EAD7D7;
+                text-align: left;
+                text-decoration: none;
+                left: 0;
+                bottom: 0;
+                opacity: 0.8;
+            }
+
+            body > nav:nth-of-type(3) > p:hover {
+                opacity: 1;
+                cursor: pointer;
+                text-align: left;
             }
         </style>
     </head>
     <body>
         <nav>
-            <p>☰</p>
-            <p><a href="首頁.html">首頁</a></p>
-            <p><a href="自我介紹.html">關於我</a></p>
-            <p><a href="興趣.html">興趣</a></p>
-            <p><a href="interest.html">Eng</a></p>
+            <p><a href="zhHobby.html"><b>繁</b></a></p>
+            <p><a href="interest.html"><b>EN</b></a></p>
+        </nav>
+        <nav>
+            <p><a href="zhHome.html"><b>🏠︎ 首頁</b></a></p>
         </nav>
         <article>
-            <section>
-                <h1>我的興趣是什麼？</h1>
-                <p>平常看似是只會窩在宿舍讀書的大學生，實際上是位超級愛追KPOP的追星女！</p>
-                <p>2020年自YG娛樂公司出道的男子團體TREASURE是我最喜歡的KPOP男團，他們究竟有什麼魅力令我深陷其中？跟我一起看下去吧！</p>
-            </section>
-            <section>
-                <figure>
-                    <img src="img_it/1.jpg" />
-                    <figcaption>Venice</figcaption>
-                </figure>
-            </section>
+            <h1>我的興趣是什麼？</h1>
+            <h2>平常只會窩在宿舍讀書的大學生，實際上是超級愛KPOP的追星女！而TREASURE是我最喜歡的KPOP團體</h2>
+            <figure>
+                <img src="trs_img/1.jpg" />
+                <figcaption><b>TREASURE</b></figcaption>
+            </figure>
+            <p></p>
+            <section>TREASURE 是韓國YG Entertainment旗下的男子音樂團體。自 2020 年出道以來，他們憑藉優秀的舞台表現、多元的音樂風格以及鮮明的個人特色，在韓國及海外都獲得了相當高的人氣。團體起初由十二位成員組成，現為十位成員，有趣的綜藝表現以及多樣化的歌曲風格正持續吸引來自世界各地粉絲的注意力。</section>
+            <p></p>
+            <section>成員們皆在出道前參加YG Entertainment製作的生存實境節目《YG Treasure Box》。節目中，練習生們透過歌唱、舞蹈及舞台表演等多項考核爭取出道機會。在長時間的競爭與訓練過程中，他們展現出優秀的實力與努力不懈的精神。經過層層選拔後，最終入選的成員組成了 TREASURE，並於 2020 年 8 月 7 日正式出道。</section>
+            <p></p>
+            <section>TREASURE 的出道曲〈BOY〉以充滿活力的曲風和強烈的舞台魅力成功吸引大眾目光。歌曲展現了成員們青春洋溢的形象，同時也讓大家看見他們在歌唱與舞蹈方面的實力。出道之後，TREASURE 陸續推出許多不同風格的作品，從抒情歌到HIPHOP歌曲，配合成員的表現力，展現出多樣化的音樂特色。</section>
+            <p></p>
+            <section>除了音樂作品之外，TREASURE也以自製綜藝節目 <b>《TREASURE MAP》</b> 受到許多粉絲喜愛。節目內容包含各種遊戲、煮飯、外出活動以及團體任務，不僅帶來許多有趣的笑點，也讓粉絲能更深入了解成員們私底下的個性與互動。我也是因為團綜入坑的！從這些內容完全能感受到成員之間深厚的友情與家族感，而這也是我一直喜歡他們的重要原因之一。</section>
+            <p></p>
+            <section>在所有成員之中，我最喜歡的是朴炡禹。作為團體的主唱，他極具感染力的歌聲，總是能夠細膩地傳達歌曲中想表達的情感。除了優秀的演唱實力之外，他在綜藝裡開朗活潑的個性也讓我印象深刻。無論是在舞台上還是在綜藝節目中，他總是能夠帶給觀眾和成員們歡樂與正面的能量。</section>
+            <p></p>
+            <section>而我最喜歡的 TREASURE 歌曲則是〈SLOWMOTION〉。相較於許多節奏強烈的主打歌，這首歌較為溫柔、感性。舒緩的旋律搭配富有情感的歌詞，讓人能夠在聆聽時感受到平靜與療癒。我每次聽這首歌都覺得心暖暖的，壓力大的時候常常會聽這首歌，永遠是我的TREASURE TOP 1歌曲！。</section>
+            <p></p>
+            <section>總結來說，TREASURE 不僅擁有出色的音樂與表演能力，也透過豐富的綜藝內容與粉絲建立緊密的連結。從《YG Treasure Box》的練習生到如今受到許多人喜愛的偶像團體，他們一路走來所付出的努力與成長我都看在眼裡。相信未來 TREASURE也會持續在K-pop的舞台上發光發熱，帶來更多優秀的作品。</section>
         </article>
+        <nav>
+            <p><a href="zhIntro.html">⬅ 回到上一頁</a></p>
+        </nav>
     </body>
 </html>
