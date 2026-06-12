@@ -5,6 +5,15 @@
         <link rel="stylesheet" href="style.css">
         <title>Homepage</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&display=swap');
+            body {
+                font-family: Bona Nova SC, serif;
+            }
+
+            p {
+                font-family: Asul, sans-serif;
+            }
+
             article {
                 display: flex;
                 flex-direction: column;
@@ -16,29 +25,57 @@
                 margin: 0 10vw;
             }
 
+            h2 {
+                font-size: 3vh;
+                font-family: Bona Nova SC, sans-serif;
+                color: #3A4F5D;
+            }
+
+            sub {
+                font-size: 2vh;
+                font-family: Asul, sans-serif;
+            }
+
             a, a:visited {
-                color: #191d32;
+                color: #F1FFFD;
                 text-decoration: none;
             }
 
             a:visited:hover, a:hover {
-                color: #282f44;
+                color: #274945;
+            }
+
+            article > p {
+                border: 20px;
+                border-radius: 20px;
+                font-family: Chiron Sung HK, sans-serif;
+            }
+
+            p > a {
+                display: inline-block;
+                padding: 5px 10px;
+                background-color: #8AA29F;
+                text-decoration: none;
+                font-weight: bold;
+                transition: 0.3s;
+                text-align: center;
+            }
+
+            p > a:hover {
+                background-color: #8AA29F;
             }
         </style>
     </head>
     <body>
-        <nav>
-            <p>≣</p>
-            <p><a href="home.html">Home</a></p>
-            <p><a href="essay.html">Essay Example</a></p>
-            <p><a href="sp.html">Sample Analysis</a></p>
-        </nav>
         <article>
             <h1>Reading & Teaching Writing Website</h1>
-            <sub>One of the loneliest Countries Finds Companionship in Dogs</sub>
-            <p>
-                <button id="zh">繁</button> | <button id="eng">EN</button>
-            </p>
+            <br/>
+            <h2>"One of the loneliest Countries Finds Companionship in Dogs"</h2>
+            <br/>
+            <sub>Spring 2026, Billingual Web Design, Yi-Hsuan Lin</sub>
         </article>
+        <nav>
+            <p><a href="index.html">Home</a><a href="essay.html">Essay Example</a><a href="sp.html">Sample Analysis</a></p>
+        </nav>
     </body>
 </html>
