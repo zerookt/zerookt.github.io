@@ -4,9 +4,16 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>Interest</title>
-        <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
-        <script src="script.js"></script>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+            body {
+                font-family: Bona Nova SC, serif;
+            }
+
+            p {
+                font-family: Asul, sans-serif;
+            }
+
             article {
                 width: 60vw;
                 margin: 0 20vw;
@@ -24,17 +31,46 @@
                 padding: 0 2vw;
             }
 
-            section:first-of-type {
+            body > nav:nth-of-type(1) {
+                display: inline-block;
+                position: fixed;
+                background-color: #C28A6E;
                 text-align: center;
+            }
+
+            body > nav:nth-of-type(2) {
+                display: inline-block;
+                position: fixed;
+                width: 10vw;
+                right:1.5vw;
+                top: 0.5vh;
+                font-size: 15px;
+            }
+
+            body > nav:nth-of-type(3) {
+                padding: 5px;
+                background-color: #EAD7D7;
+                text-align: left;
+                text-decoration: none;
+                left: 0;
+                bottom: 0;
+                opacity: 0.8;
+            }
+
+            body > nav:nth-of-type(3) > p:hover {
+                opacity: 1;
+                cursor: pointer;
+                text-align: left;
             }
         </style>
     </head>
     <body>
         <nav>
-            <p>≣</p>
-            <p><a href="index.html">Homepage</a></p>
-            <p><a href="intro.html">About Me</a></p>
-            <p><a href="interest.html">Interest</a></p>
+            <p><a href="zhHobby.html"><b>繁</b></a></p>
+            <p><a href="interest.html"><b>EN</b></a></p>
+        </nav>
+        <nav>
+            <p><a href="index.html"><b>🏠︎ Homepage</b></a></p>
         </nav>
         <article>
                 <h1>What's My Hobby?</h1>
@@ -59,7 +95,7 @@
                 <section>In conclusion, TREASURE has developed into one of the most promising K-pop groups of their generation. Through their music, performances, and variety content, they have built a strong connection with fans worldwide. Their journey from YG Treasure Box to becoming successful artists demonstrates both their talent and dedication.</section>
         </article>
         <nav>
-            <p>Back to Homepage 🏠︎</p>
+            <p><a href="intro.html">⬅ Back to About Me</a></p>
         </nav>
     </body>
 </html>

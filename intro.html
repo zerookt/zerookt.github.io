@@ -5,6 +5,11 @@
         <title>Intro</title>
         <link rel="stylesheet" href="style.css">
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+            body {
+                font-family: Bona Nova SC, serif;
+            }
+
             article {
                 width: 60vw;
                 margin: 0 20vw;
@@ -17,25 +22,61 @@
                 Line-height: 10vh;
             }
 
+            h2 {
+                height: 10vh;
+                font-size: 2.2vh;
+                Line-height: 10vh;
+                font-family: Asul, sans-serif;
+            }
+
             section {
                 margin: 2vh 0;
                 padding: 0 2vw;
+                font-family: Asul, sans-serif;
+            }
+
+            body > nav:nth-of-type(1) {
+                display: inline-block;
+                position: fixed;
+                background-color: #C28A6E;
+                text-align: center;
+            }
+
+            body > nav:nth-of-type(2) {
+                display: inline-block;
+                position: fixed;
+                width: 10vw;
+                right:1.5vw;
+                top: 0.5vh;
+                font-size: 15px;
+            }
+
+            body > nav:nth-of-type(3) {
+                padding: 5px;
+                background-color: #EAD7D7;
+                text-align: right;
+                text-decoration: none;
+                right: 0;
+                bottom: 0;
+                opacity: 0.8;
+                font-family: Asul, sans-serif;
             }
         </style>
     </head>
     <body>
         <nav>
-            <p>≣</p>
-            <p><a href="index.html">Homepage</a></p>
-            <p><a href="intro.html">About Me</a></p>
-            <p><a href="interest.html">Interest</a></p>
+            <p><a href="zhHome.html"><b>繁</b></a></p>
+            <p><a href="intro.html"><b>EN</b></a></p>
+        </nav>
+        <nav>
+            <p><a href="index.html"><b>🏠︎ Homepage</b></a></p>
         </nav>
         <article>
             <h1>About Me</h1>
         <section>
             <figure><img src="my_img/1.jpg" /></figure>
         </section>
-        <p><b>Hi! I am Katie. Welcome to my personal website!</b></p>
+        <h2><b>Hi! I am Katie. Welcome to my personal website!</b></h2>
         <section>I am currently a sophomore student at National Tsing Hua University, where I am double majoring in Foreign Languages and Literature and the Interdisciplinary Program of Technology and Art.</section>
         <p></p>
         <section>In the field of Foreign Languages and Literature, I have a strong interest in linguistics, particularly about Neuroscience and Psycholinguistics. I am fascinated by how the human brain connects with language, which acquires linguistic knowledge, and connects language with cognition and behavior. Furthermore, I am especially interested in learning animation production and creating interactive installations in the field of Interdisciplinary Program of Technology and Art. Through these forms of artistic expression, I hope to share my thoughts with the combination of technology, and human experience through engaging and meaningful works.</section>
@@ -43,18 +84,23 @@
         <section>Outside of academics, I am a devoted K-pop fan who enjoys watching my favorite idols' variety contents and keeping up with their latest activities in my spare time. Since I want to better understand what they say and express a lot, I started learning Korean, which helps me develop a deeper understanding of Korean music, culture, and the society.</section>
         </section>
         <section>
-            <figure><img src="trs_img/2.jpg" /></figure>
-            <figurecaption>Me at TREASURE's concert</figurecaption>
+            <figure>   
+                <img src="trs_img/2.jpg" />
+                <figurecaption>Me at TREASURE's concert</figurecaption>
+            </figure>
         </section>
         <section>I also love spending time with my pet dogs. Their energetic actions and lovable appearances never fail to brighten my mood and bring comfort after a long day. Playing with them helps me relax, recharge, and find joy in everyday life. These hobbies not only enrich my life but also allow me to stay passionate and positive while balancing my academic responsibilities.</section>
         <section>
-            <figure><img src="my_img/2.jpg" /></figure>
-            <figurecaption>This is my pet dog!</figurecaption>
+            <figure>
+                <img src="my_img/2.jpg" />
+                <figurecaption>This is my pet dog!</figurecaption>
+            </figure>
         </section>
-        <p><b>That's all about me, click the arrow below to know more about my favorite Kpop Idol!</b></p>
+        <p>That's all about me, click the <b>arrow</b> below to know more about my favorite Kpop Idol!</p>
         </article>
+        <br/>
         <nav>
-            <p>Interest ➦</p>
+            <a href="interest.html">Interest ➦</a></p>
         </nav>
     </body>
 </html>     
