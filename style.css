@@ -108,6 +108,13 @@ section > p:not(:last-of-type) {
 	border-bottom: 3px solid #EAD7D7;
 }
 
+article > p {
+	text-align: left;
+	margin: 2vh 0;
+    padding: 0 2vw;
+    color: #0E5678;
+}
+
 @media only screen and (max-width: 1024px) {
     article {
         width: 100%;
